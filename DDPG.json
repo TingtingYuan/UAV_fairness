@@ -1,0 +1,43 @@
+{
+    "UAV_NUMBER": 2,
+    "MAX_vehicle_num_grid": 20,
+    "ACTION_TYPE": "CP",
+    "Action_precision": 1,
+
+    "R_RSU": 300,
+    "R_BS": 3200,
+    "HEIGHT_l": 50,
+    "HEIGHT_u": 100,
+    "Grid_num": 10,
+    "Area_size": 3000,
+    
+    "Battery_update": true,
+    "Energe_efficient": false,
+    "alpha": 0,
+    
+    "EPISODE_COUNT": 20000,
+    "BATCH_SIZE": 800,
+    "BUFFER_SIZE": 5000,
+    "MAX_STEPS": 96,
+    "GROUP": 7,
+    
+    "LRDecay": false,
+    "GAMMA": 0.95,
+    "LRA": 0.0001,
+    "LRC": 0.001,
+    "TAU": 0.01,
+    "Branch_NN": false,
+    
+    "Do_others": true,
+    "Read_other_methods": true,
+    "Read_traffic": true,
+    "CITY": "Rio",
+    
+    "Pretrain": false,
+    "Folder_data": "./DATA/OtherMethods/",
+    "F_test": "./DATA/data_test/",
+    
+    "UAV_B": 700e3,
+    "Flying_speed": 20,
+    "deta_t": 900
+}
