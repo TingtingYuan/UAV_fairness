@@ -20,13 +20,27 @@ This is the code for implementing the DDPG algorithm for dynamic UAV placement f
 
 - `--Env_grid`: defines which environment of communication in ITS.
 
-- `--EPISODE_COUNT` total number of training episodes (default: `10000`)
+- `--EPISODE_COUNT` total number of training episodes (default: `20000`)
 
 - `--GROUP` number of days (default: `"7'`)
 
 - `--MAX_STEPS`: number of time step in one day (default: `"96"`)
 
+- `--UAV_NUMBER` number of UAVs (default: `"2'`)
 
+- `--alpha` factor for utility function (default: `"0'`)
+
+- `--R_RSU` coverage radius of RSUs 
+
+- `--R_BS` coverage radius of BSs 
+
+- `--HEIGHT_l` lower-bound height of UAVs (default: `"50'`)
+ 
+- `--HEIGHT_u` upper-bound height of UAVs (default: `"100'`)
+
+- `--UAV_B` battery of UAVs (default: `"700e3'`)
+
+- `--Flying_speed` maximum flying speed of UAVs (default: `"20'`)
 
 ### Core training parameters
 
@@ -36,7 +50,7 @@ This is the code for implementing the DDPG algorithm for dynamic UAV placement f
 
 - `--gamma`: discount factor (default: `0.95`)
 
-- `--BATCH_SIZE`: batch size (default: `1000`)
+- `--BATCH_SIZE`: batch size (default: `800`)
 
 
 ## Code structure
@@ -57,7 +71,6 @@ This is the code for implementing the DDPG algorithm for dynamic UAV placement f
 
 - `./DDPG/critic.py`: the critic of DDPG
 
-- `./DATA/SDNdata_15min_3km/`: contains data of vehicles loaction
+- `./DATA/U96_Rio/DATA`: contains data of vehicles loaction
 
-- `./DATA/OtherMethods/`: contains data of baselines
 
