@@ -1,5 +1,8 @@
 
+
+
 # Deep Deterministic Policy Gradient (DDPG) for UAV placement to improve fainess of communication
+Paper link: https://ieeexplore.ieee.org/document/9585312
 
 
 This is the code for implementing the DDPG algorithm for dynamic UAV placement for ITS.
