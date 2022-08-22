@@ -28,8 +28,8 @@
     "TAU": 0.01,
     "Branch_NN": false,
     
-    "Do_others": true,
-    "Read_other_methods": true,
+    "Do_others": false,
+    "Read_other_methods": false,
     "Read_traffic": true,
     "CITY": "Rio",
     
